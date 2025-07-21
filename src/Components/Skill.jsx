@@ -10,7 +10,7 @@ import tailwind from '../assets/tailwindcss.png';
 import vue from '../assets/vue.png';
 import vuetify from '../assets/Veutify.png';
 // import reactnative from '../assets/react.png';
-import java from '../assets/java.png';
+import java from '../assets/Java.png';
 // import express from '../assets/Express.png';
 import node from '../assets/Node.png';
 import postgres from '../assets/PostgresSQL.png';
