@@ -17,7 +17,7 @@ import postgres from '../assets/PostgresSQL.png';
 import mongodb from '../assets/MongoDB.png';
 import firebase from '../assets/Firebase.png';
 import expressjs from '../assets/newex.png';
-import git from '../assets/git.png';
+import git from '../assets/Git.png';
 import elixir from '../assets/elixir.png';
 import vite from '../assets/vite.png';
 import phoenix from '../assets/phoenix.png';
