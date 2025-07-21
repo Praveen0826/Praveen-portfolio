@@ -20,9 +20,9 @@ import expressjs from '../assets/newex.png';
 import git from '../assets/Git.png';
 import elixir from '../assets/Elixir.png';
 import vite from '../assets/Vite.png';
-import phoenix from '../assets/phoenix.png';
-import python from '../assets/python.png';
-import Mysql from '../assets/MYSQL.png';
+import phoenix from '../assets/Phoenix.png';
+import python from '../assets/Python.png';
+import Mysql from '../assets/MySQL.png';
 
 const skills = [
 //   { name: 'HTML', image: html },
