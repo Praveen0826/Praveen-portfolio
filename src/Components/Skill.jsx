@@ -1,9 +1,10 @@
 import React from 'react';
 
 // Importing images from assets folder
+
 // import html from '../assets/html.png';
 // import css from '../assets/css.png';
-import javascript from '../assets/javascript.png';
+import javascript from '../assets/JavaScript.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwindcss.png';
 import vue from '../assets/vue.png';
