@@ -8,7 +8,7 @@ import javascript from '../assets/JavaScript.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwindcss.png';
 import vue from '../assets/vue.png';
-import vuetify from '../assets/veutify.png';
+import vuetify from '../assets/Veutify.png';
 // import reactnative from '../assets/react.png';
 import java from '../assets/java.png';
 // import express from '../assets/Express.png';
