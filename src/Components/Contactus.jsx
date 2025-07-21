@@ -26,7 +26,7 @@ function Contactus() {
   return (
 <>
  
-<div className="min-h-screen flex items-center justify-center px-4" style={{ backgroundColor: '#0d1117' }}>
+<div id="contactus" className="min-h-screen flex items-center justify-center px-4" style={{ backgroundColor: '#0d1117' }}>
       <form
         ref={form}
         onSubmit={sendEmail}

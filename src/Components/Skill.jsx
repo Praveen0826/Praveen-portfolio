@@ -51,7 +51,7 @@ const skills = [
 
 const Skill = () => {
   return (
-    <section className="py-24 bg-[#0d1117] text-white">
+    <section id='skills' className="py-16 bg-[#0d1117] text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl text-center mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#A855F7] via-[#7C3AED] to-[#FF5C8A]" data-aos="zoom-in-up">My Skills</h2>
         <p className='text-center text-3xl font-bold mb-10' data-aos="zoom-in">I Experience with this Technology</p>

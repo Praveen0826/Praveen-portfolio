@@ -32,7 +32,7 @@ function Project() {
   ];
 
   return (
-    <section className="py-12 bg-[#0d1117] text-white">
+    <section id='projects' className="py-12 bg-[#0d1117] text-white">
       <h1 className="text-center text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#A855F7] via-[#7C3AED] to-[#FF5C8A]" data-aos="zoom-in-up">
         Projects
       </h1>

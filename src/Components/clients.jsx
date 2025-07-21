@@ -3,7 +3,7 @@ import clientwebsite from '../assets/client.png'
 
 function Clients() {
   return (
-   <section className="py-10 bg-[#0d1117] text-white">
+   <section id='mywork' className="py-10 bg-[#0d1117] text-white">
   <div className="max-w-6xl mx-auto px-4">
     <h2 className="text-3xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600" data-aos="zoom-in-up">My Work</h2>
 

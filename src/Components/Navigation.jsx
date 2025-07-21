@@ -2,12 +2,19 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const navLinks = ['Home', 'About Me', 'Projects', 'Skills', 'Contact Us'];
+  const navLinks = [
+  { name: 'Home', href: '#home' },
+  { name: 'About Me', href: '#about' },
+   { name: 'Skills', href: '#skills' },
+  { name: 'Projects', href: '#projects' },
+ { name: 'My Works', href: '#mywork' },
+  { name: 'Contact Us', href: '#contactus' },
+];
 
   return (
     <>
       {/* Navbar */}
-      <nav className="bg-transparent backdrop-blur-lg border-b border-white/10 fixed w-full top-0 left-0 z-50 shadow-md">
+      <nav  className="bg-transparent backdrop-blur-lg border-b border-white/10 fixed w-full top-0 left-0 z-50 shadow-md">
 
         <div className="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
           <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#A855F7] via-[#7C3AED] to-[#FF5C8A]">
@@ -17,14 +24,12 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <ul className="hidden md:flex  text-lg space-x-8 font-medium text-white">
             {navLinks.map((link) => (
-              <li
-                key={link}
-                className="relative group cursor-pointer hover:text-[#8240e8] transition duration-300"
-              >
-                {link}
-                <span className="block h-0.5 bg-[#8240e8] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-              </li>
-            ))}
+  <li key={link.name}>
+    <a href={link.href} className="hover:text-[#8240e8] transition">
+      {link.name}
+    </a>
+  </li>
+))}
           </ul>
 
           {/* Hamburger Icon */}
@@ -58,14 +63,13 @@ const Navbar = () => {
           <h2 className="text-xl font-bold text-white mb-6 mt-2">Menu</h2>
           <ul className="space-y-6 font-medium text-white text-lg">
             {navLinks.map((link) => (
-              <li
-                key={link}
-                onClick={() => setIsOpen(false)}
-                className="hover:text-[#FF5C8A] transition duration-300 cursor-pointer"
-              >
-                {link}
-              </li>
-            ))}
+  <li key={link.name}>
+    <a href={link.href}
+    onClick={() => setIsOpen(false)} className="hover:text-[#8240e8] transition">
+      {link.name}
+    </a>
+  </li>
+))}
           </ul>
         </div>
       </div>

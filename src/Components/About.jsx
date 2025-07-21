@@ -9,7 +9,7 @@ function About() {
   }, []);
 
   return (
-    <div className="w-full flex flex-wrap bg-[#0d1117] py-16 px-4 md:px-12">
+    <div id='about' className="w-full flex flex-wrap bg-[#0d1117] py-16 px-4 md:px-12">
       {/* LEFT - IMAGE */}
       <div
         className="w-full md:w-[40%] flex justify-center items-center relative"
