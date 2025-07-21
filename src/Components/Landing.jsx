@@ -6,7 +6,7 @@ import "../../src/orbit.css"; // orbit animation CSS
 
 const Hero = () => {
   return (
-    <section className="md:h-[100vh] md:mt-2 mt-20 bg-[#0d1117] text-white flex flex-col-reverse md:flex-row items-center md:justify-between gap-12 px-6 md:px-20  md:pt-0  md:gap-32 overflow-hidden">
+    <section className="md:h-[100vh] md:mt-2 mt-30 bg-[#0d1117] text-white flex flex-col-reverse md:flex-row items-center md:justify-between gap-12 px-6 md:px-20  md:pt-0  md:gap-32 overflow-hidden">
       
       {/* LEFT SECTION */}
       <div className="w-full md:w-1/2 text-center md:text-left">
