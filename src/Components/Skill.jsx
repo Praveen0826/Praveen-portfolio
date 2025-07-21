@@ -15,7 +15,7 @@ import java from '../assets/Java.png';
 import node from '../assets/Node.png';
 import postgres from '../assets/PostgresSQL.png';
 import mongodb from '../assets/MongoDB.png';
-import firebase from '../assets/firebase.png';
+import firebase from '../assets/Firebase.png';
 import expressjs from '../assets/newex.png';
 import git from '../assets/git.png';
 import elixir from '../assets/elixir.png';
